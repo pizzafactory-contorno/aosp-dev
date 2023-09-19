@@ -66,7 +66,7 @@ jobs:
       -
         name: Build and push
         id: docker_build
-        uses: docker/build-push-action@v3
+        uses: docker/build-push-action@v5
         with:
           platforms: ${{ matrix.platforms }}
           context: ${{ matrix.aosp_version }}_${{ matrix.distro }}_${{ matrix.screen }}
