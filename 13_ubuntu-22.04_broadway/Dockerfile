@@ -10,6 +10,7 @@ RUN apt-get update \
       meson dosfstools mtools e2fsprogs \
       fdisk kpartx \
       pkg-config python3-mako python3-jinja2 python3-ply python3-yaml \
+      psmisc \
  && DEBIAN_FRONTEND=noninteractive apt-get upgrade -y \
  && apt-get clean && rm -rf /var/lib/apt/lists/*
 USER user
