@@ -1,4 +1,4 @@
-FROM docker.io/pizzafactory0contorno/piatto-quadrato:ubuntu-22.04_xpra@sha256:97ef6e6c75fbde03057136128d7beffe544629b58899f6ab26331feab0f150b6
+FROM docker.io/pizzafactory0contorno/piatto-quadrato:ubuntu-22.04_xpra@sha256:71edcad2a9696c9e4175bd9cbd97c18be12a27b0e6b7d49067dbea16501fa288
 
 
 USER root
